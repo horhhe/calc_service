@@ -5,7 +5,7 @@
 *все комманды ввводятся в git bash
 (для удобства, комманды можно копировать и вставлять в git bash с помощью shift+insert)
 
-```git clone https://github.com/yourusername/calc_service.git```          - клонирование репозитория
+```git clone https://github.com/horhhe/calc_service.git```          - клонирование репозитория
 
 ```cd calc_service```          - переход к репозиторию
 
