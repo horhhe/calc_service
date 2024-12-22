@@ -3,8 +3,8 @@ package handlers
 import (
 	"net/http"
 	"github.com/gin-gonic/gin"
-	"github.com/yourusername/calc_service/internal/models"
-	"github.com/yourusername/calc_service/internal/services"
+	"github.com/horhhe/calc_service/internal/models"
+	"github.com/horhhe/calc_service/internal/services"
 )
 
 func CalculateExpression(c *gin.Context) {
