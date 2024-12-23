@@ -19,7 +19,8 @@
 *для ввода запросов необходимо открыть второе окно git bash
 
 Успешный запрос:
-```curl --location 'http://localhost:8080/api/v1/calculate' --header 'Content-Type: application/json' --data '{"expression": "2+2*2"}'```
+```bash
+curl --location 'http://localhost:8080/api/v1/calculate' --header 'Content-Type: application/json' --data '{"expression": "2+2*2"}'
 
 Ответ:
 ```{"result": 6}```
