@@ -31,13 +31,21 @@
 ```
 
 Ошибка 422:
-```curl --location 'http://localhost:8080/api/v1/calculate' --header 'Content-Type: application/json' --data '{"expression": "2+2*a"}'```
+```
+curl --location 'http://localhost:8080/api/v1/calculate' --header 'Content-Type: application/json' --data '{"expression": "2+2*a"}'
+```
 
 Ответ:
-```{"error": "недопустимый символ: a"}```
+```
+{"error": "недопустимый символ: a"}
+```
 
 Ошибка 500:
-```curl --location 'http://localhost:8080/api/v1/calculate' --header 'Content-Type: application/json' --data '{"expression": "2/0"}'```
+```
+curl --location 'http://localhost:8080/api/v1/calculate' --header 'Content-Type: application/json' --data '{"expression": "2/0"}'
+```
 
 Ответ:
-```{"error": "деление на ноль"}```
+```
+{"error": "деление на ноль"}
+```
